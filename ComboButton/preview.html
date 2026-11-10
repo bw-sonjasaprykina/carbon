@@ -1,0 +1,13 @@
+<!-- @dsCard group="Actions" height=180 subtitle="Primary action with a menu of alternatives" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body{margin:0;padding:16px;background:var(--cds-background);color:var(--cds-text-primary);font-family:var(--cds-font-sans)}.row{display:flex;gap:16px;align-items:center;flex-wrap:wrap}.col{display:flex;flex-direction:column;gap:16px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px 24px;align-items:start}.cap{font:400 12px/16px var(--cds-font-sans);letter-spacing:.32px;color:var(--cds-text-secondary)}</style></head><body><div id="root"></div>
+<script>
+// bundle.css keys Carbon's semantic roles on data-mode; mirror the frame's data-theme onto it
+(() => { const de = document.documentElement, M = {'root-gray-10':'gray-10-theme','root-gray-90':'gray-90-theme','root-gray-100':'gray-100-theme'};
+  const sync = () => { const m = M[de.getAttribute('data-theme')]; if (m) de.setAttribute('data-mode', m); else de.removeAttribute('data-mode'); };
+  sync(); new MutationObserver(sync).observe(de, { attributes: true, attributeFilter: ['data-theme'] }); })();
+const h = React.createElement;
+const C = window.CarbonDesignSystem_c5eb93;
+const root = el => ReactDOM.createRoot(document.getElementById('root')).render(el);
+const items=[{label:'Duplicate'},{label:'Rename'},{kind:'divider'},{label:'Delete',danger:true}];
+root(h('div',{className:'row',style:{alignItems:'flex-start'}},h(C.ComboButton,{label:'Deploy',items,size:'sm'}),h(C.ComboButton,{label:'Deploy',items,size:'md'}),h(C.ComboButton,{label:'Deploy',items,size:'lg'}),h(C.ComboButton,{label:'Deploy',items,disabled:true})));
+</script></body></html>

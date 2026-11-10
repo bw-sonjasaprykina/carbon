@@ -1,0 +1,41 @@
+<!-- @dsCard group="Components" height=340 subtitle="Button, IconButton, Link, MenuButton, ComboButton, OverflowMenu" page -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<style>body{margin:0;padding:16px;background:var(--cds-background)}.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}</style>
+</head><body><div id="root"></div>
+<script type="text/babel">
+const { Button, IconButton, Link, MenuButton, ComboButton, OverflowMenu, Icon } = window.CarbonDesignSystem_c5eb93;
+const items = [{ label: 'Duplicate' }, { label: 'Rename' }, { kind: 'divider' }, { label: 'Delete', danger: true }];
+ReactDOM.createRoot(document.getElementById('root')).render(<>
+  <div className="row">
+    <Button kind="primary">Primary</Button>
+    <Button kind="secondary">Secondary</Button>
+    <Button kind="tertiary">Tertiary</Button>
+    <Button kind="ghost">Ghost</Button>
+    <Button kind="danger">Danger</Button>
+    <Button kind="primary" disabled>Disabled</Button>
+  </div>
+  <div className="row">
+    <Button size="sm" renderIcon={<Icon name="Add" />}>Small</Button>
+    <Button size="md" renderIcon={<Icon name="Add" />}>Medium</Button>
+    <Button size="lg" renderIcon={<Icon name="Add" />}>Large</Button>
+    <Button size="xl" renderIcon={<Icon name="Add" />}>X-large</Button>
+  </div>
+  <div className="row">
+    <Button kind="primary" iconOnly renderIcon={<Icon name="Add" />} aria-label="Add" />
+    <Button kind="secondary" iconOnly renderIcon={<Icon name="Edit" />} aria-label="Edit" />
+    <IconButton label="Settings"><Icon name="Settings" /></IconButton>
+    <OverflowMenu items={items} />
+    <Button kind="primary" round renderIcon={<Icon name="ArrowRight" />}>Round</Button>
+  </div>
+  <div className="row">
+    <MenuButton label="Create" items={items} size="md" />
+    <ComboButton label="Deploy" items={items} size="md" />
+  </div>
+  <div className="row">
+    <Link href="#">Standalone link</Link>
+    <Link href="#" renderIcon={<Icon name="Launch" size={16} />}>With icon</Link>
+    <Link href="#" inline>Inline link</Link>
+    <Link href="#" disabled>Disabled</Link>
+  </div>
+</>);
+</script></body></html>
