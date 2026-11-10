@@ -1,0 +1,353 @@
+{
+  "manifestVersion": 3,
+  "name": "Carbon Design System",
+  "namespace": "CarbonDesignSystem_c5eb93",
+  "files": [
+    "assets/icons/icons.card.html",
+    "assets/notes/MIGRATION-REPORT.md",
+    "assets/notes/SKILL.from-standalone.md",
+    "components/Actions/README.md",
+    "components/Breadcrumb/Breadcrumb.d.ts",
+    "components/Breadcrumb/README.md",
+    "components/Button/Button.d.ts",
+    "components/Button/README.md",
+    "components/Checkbox/Checkbox.d.ts",
+    "components/Checkbox/README.md",
+    "components/CodeSnippet/CodeSnippet.d.ts",
+    "components/CodeSnippet/README.md",
+    "components/ComboButton/ComboButton.d.ts",
+    "components/ComboButton/README.md",
+    "components/ContainedList/ContainedList.d.ts",
+    "components/ContainedList/README.md",
+    "components/ContentSwitcher/ContentSwitcher.d.ts",
+    "components/ContentSwitcher/README.md",
+    "components/Data/README.md",
+    "components/DataTable/DataTable.d.ts",
+    "components/DataTable/README.md",
+    "components/DatePicker/DatePicker.d.ts",
+    "components/DatePicker/README.md",
+    "components/Dropdown/Dropdown.d.ts",
+    "components/Dropdown/README.md",
+    "components/FileUploader/FileUploader.d.ts",
+    "components/FileUploader/README.md",
+    "components/Form/Form.d.ts",
+    "components/Form/README.md",
+    "components/Forms/README.md",
+    "components/Icon/Icon.d.ts",
+    "components/Icon/README.md",
+    "components/IconButton/IconButton.d.ts",
+    "components/IconButton/README.md",
+    "components/Link/Link.d.ts",
+    "components/Link/README.md",
+    "components/Menu/Menu.d.ts",
+    "components/Menu/README.md",
+    "components/MenuButton/MenuButton.d.ts",
+    "components/MenuButton/README.md",
+    "components/Navigation/README.md",
+    "components/NumberInput/NumberInput.d.ts",
+    "components/NumberInput/README.md",
+    "components/OverflowMenu/OverflowMenu.d.ts",
+    "components/OverflowMenu/README.md",
+    "components/Pagination/Pagination.d.ts",
+    "components/Pagination/README.md",
+    "components/PasswordInput/PasswordInput.d.ts",
+    "components/PasswordInput/README.md",
+    "components/RadioButton/README.md",
+    "components/RadioButton/RadioButton.d.ts",
+    "components/Search/README.md",
+    "components/Search/Search.d.ts",
+    "components/Select/README.md",
+    "components/Select/Select.d.ts",
+    "components/SideNav/README.md",
+    "components/SideNav/SideNav.d.ts",
+    "components/Slider/README.md",
+    "components/Slider/Slider.d.ts",
+    "components/StructuredList/README.md",
+    "components/StructuredList/StructuredList.d.ts",
+    "components/SwitcherPanel/README.md",
+    "components/SwitcherPanel/SwitcherPanel.d.ts",
+    "components/Tabs/README.md",
+    "components/Tabs/Tabs.d.ts",
+    "components/Tag/README.md",
+    "components/Tag/Tag.d.ts",
+    "components/TextArea/README.md",
+    "components/TextArea/TextArea.d.ts",
+    "components/TextInput/README.md",
+    "components/TextInput/TextInput.d.ts",
+    "components/Tile/README.md",
+    "components/Tile/Tile.d.ts",
+    "components/TimePicker/README.md",
+    "components/TimePicker/TimePicker.d.ts",
+    "components/Toggle/README.md",
+    "components/Toggle/Toggle.d.ts",
+    "components/TreeView/README.md",
+    "components/TreeView/TreeView.d.ts",
+    "components/UIShellHeader/README.md",
+    "components/UIShellHeader/UIShellHeader.d.ts",
+    "components/bundle.css",
+    "components/bundle.js",
+    "components/lib/react-dom.production.min.js",
+    "components/lib/react.production.min.js",
+    "docs/_ds_bundle.js",
+    "docs/_ds_manifest.json",
+    "docs/components/data/List.md",
+    "guidelines/color-ai.card.html",
+    "guidelines/color-blue.card.html",
+    "guidelines/color-button.card.html",
+    "guidelines/color-cool.card.html",
+    "guidelines/color-gray.card.html",
+    "guidelines/color-layer.card.html",
+    "guidelines/color-notification.card.html",
+    "guidelines/color-support.card.html",
+    "guidelines/color-tag.card.html",
+    "guidelines/color-text.card.html",
+    "guidelines/color-warm.card.html",
+    "guidelines/grid.card.html",
+    "guidelines/radius-motion.card.html",
+    "guidelines/spacing-inuse.card.html",
+    "guidelines/spacing-scale.card.html",
+    "guidelines/spacing-sizes.card.html",
+    "guidelines/themes.card.html",
+    "guidelines/type-body.card.html",
+    "guidelines/type-display.card.html",
+    "guidelines/type-heading.card.html",
+    "guidelines/type-mono.card.html",
+    "guidelines/type-utility.card.html",
+    "guidelines/type-weight.card.html",
+    "tokens.css"
+  ],
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18.3.1",
+      "global": "React",
+      "file": "components/lib/react.production.min.js"
+    },
+    {
+      "name": "react-dom",
+      "version": "18.3.1",
+      "global": "ReactDOM",
+      "file": "components/lib/react-dom.production.min.js"
+    }
+  ],
+  "components": [
+    {
+      "name": "Icon",
+      "summary": "Inline SVG for one of the Carbon glyphs extracted from the Figma kit; paints with currentColor."
+    },
+    {
+      "name": "Button",
+      "summary": "The standard Carbon action; use primary for the single most important action per view and ghost for low-emphasis inline actions."
+    },
+    {
+      "name": "ComboButton",
+      "summary": "A split primary button: the label fires the default action, the chevron opens alternates."
+    },
+    {
+      "name": "IconButton",
+      "summary": "An icon-only button whose label appears as a Carbon tooltip — use it anywhere a bare glyph would otherwise be unlabelled (toolbars, table row actions, shell he…"
+    },
+    {
+      "name": "Link",
+      "summary": "Text navigation. \\inline\\ for links inside a paragraph (always underlined); standalone for links on their own line (underline on hover only)."
+    },
+    {
+      "name": "MenuButton",
+      "summary": "A button whose only job is to open a menu of related actions — use when three or more actions share one entry point."
+    },
+    {
+      "name": "OverflowMenu",
+      "summary": "The three-dot affordance for actions that belong to one row, card or tile."
+    },
+    {
+      "name": "CodeSnippet",
+      "summary": "Always IBM Plex Mono at 12px/16px on --cds-layer-01."
+    },
+    {
+      "name": "ContainedList",
+      "summary": "A titled list with its own header action — good for side panels and dashboard cards."
+    },
+    {
+      "name": "DataTable",
+      "summary": "The workhorse for structured records."
+    },
+    {
+      "name": "UnorderedList"
+    },
+    {
+      "name": "OrderedList"
+    },
+    {
+      "name": "ListItem"
+    },
+    {
+      "name": "Pagination",
+      "summary": "Sits directly under a DataTable, flush to its edges, on --cds-layer-01\\ with a 1px top rule."
+    },
+    {
+      "name": "StructuredList",
+      "summary": "For reading, not manipulating — use when rows need no sorting, selection bar or pagination."
+    },
+    {
+      "name": "Tag",
+      "summary": "Categorises or filters."
+    },
+    {
+      "name": "TAG_COLORS"
+    },
+    {
+      "name": "Tile",
+      "summary": "Carbon's container primitive."
+    },
+    {
+      "name": "Checkbox",
+      "summary": "Zero-or-more selection."
+    },
+    {
+      "name": "CheckboxGroup"
+    },
+    {
+      "name": "DatePicker",
+      "summary": "A date field with a calendar flyout. \\range\\ renders two fields side by side with a 1px gap."
+    },
+    {
+      "name": "Dropdown",
+      "summary": "Single-select from a list that may be long or need custom option rendering."
+    },
+    {
+      "name": "FileUploader",
+      "summary": "Two modes: a tertiary \"Add file\" button, or \\drop\\ for a 320px dashed drag-and-drop zone."
+    },
+    {
+      "name": "Form",
+      "summary": "Form layout primitives."
+    },
+    {
+      "name": "FormGroup"
+    },
+    {
+      "name": "FormLabel"
+    },
+    {
+      "name": "Stack"
+    },
+    {
+      "name": "NumberInput",
+      "summary": "Numeric entry with steppers."
+    },
+    {
+      "name": "PasswordInput",
+      "summary": "A text input with an eye toggle."
+    },
+    {
+      "name": "RadioButton",
+      "summary": "Exactly-one selection from two to five visible options."
+    },
+    {
+      "name": "RadioButtonGroup"
+    },
+    {
+      "name": "Search",
+      "summary": "Filters or queries a set."
+    },
+    {
+      "name": "Select",
+      "summary": "Use Select for a short, fixed list the user already knows (country, region, plan)."
+    },
+    {
+      "name": "Slider",
+      "summary": "For imprecise values where relative position matters more than the exact number."
+    },
+    {
+      "name": "TextArea",
+      "summary": "Multi-line input."
+    },
+    {
+      "name": "TextInput",
+      "summary": "The default single-line field."
+    },
+    {
+      "name": "StatusGlyph"
+    },
+    {
+      "name": "TimePicker",
+      "summary": "An 80px time field followed by period and time-zone Selects, joined by 1px gaps."
+    },
+    {
+      "name": "Toggle",
+      "summary": "A toggle applies immediately — no Save button."
+    },
+    {
+      "name": "Breadcrumb",
+      "summary": "Slash-separated hierarchy, placed directly above a page title."
+    },
+    {
+      "name": "ContentSwitcher",
+      "summary": "Toggles between two to four views of the same content — a grid/list switch, a chart type."
+    },
+    {
+      "name": "Menu",
+      "summary": "The floating list of actions."
+    },
+    {
+      "name": "SideNav",
+      "summary": "The shell's left panel: 256px expanded, 48px as a rail, rows 32px tall."
+    },
+    {
+      "name": "SwitcherPanel",
+      "summary": "The shell's right drawer — app switcher, account menu or notification list."
+    },
+    {
+      "name": "Tabs",
+      "summary": "Switches between peer views of the same data."
+    },
+    {
+      "name": "TreeView",
+      "summary": "Nested hierarchies where depth matters — file trees, resource groups, taxonomy pickers."
+    },
+    {
+      "name": "UIShellHeader",
+      "summary": "The product header: always 48px tall, always --cds-background-inverse\\, always first in the DOM."
+    },
+    {
+      "name": "Actions",
+      "group": "Components",
+      "summary": "Button, IconButton, Link, MenuButton, ComboButton, OverflowMenu",
+      "page": true
+    },
+    {
+      "name": "Data",
+      "group": "Components",
+      "summary": "DataTable, Pagination, Tag, Tile, CodeSnippet, structured and contained lists",
+      "page": true
+    },
+    {
+      "name": "Forms",
+      "group": "Components",
+      "summary": "Text, number, password, select, dropdown, checkbox, radio, toggle, search, slider, date, time, uploader",
+      "page": true
+    },
+    {
+      "name": "Navigation",
+      "group": "Components",
+      "summary": "Breadcrumb, Tabs, ContentSwitcher, Menu, SideNav, TreeView, shell header",
+      "page": true
+    }
+  ],
+  "lastChange": {
+    "by": "Migration",
+    "via": "standalone export",
+    "at": "2026-09-18T12:23:10.429Z",
+    "note": "migrated from the standalone version",
+    "source": "claude-design",
+    "authoredIn": "spa"
+  },
+  "assetGroups": [
+    {
+      "name": "icons"
+    },
+    {
+      "name": "notes"
+    }
+  ]
+}
